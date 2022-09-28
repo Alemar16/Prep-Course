@@ -176,7 +176,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero > 0) {
     return "Es positivo";
-  } else if (numero > 0) {
+  } else if (numero < 0) {
     return "Es negativo";
   } else
     return false;
@@ -201,7 +201,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola ${nombre}";
+  return "Hola ${nombre}!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
